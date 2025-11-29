@@ -1,0 +1,22 @@
+[
+  {
+    "code":"CRBFG-87-PAB/FIH",
+    "nombre":"FAOMI ICOPRE HUMAÑA",
+    "ci":"5602143",
+    "curso":"Primeros Auxilios Básicos",
+    "horas":"60 horas",
+    "modalidad":"Presencial",
+    "fecha":"2025-07-07",
+    "qr": "PAB-FIB.jpg"
+  },
+  {
+    "code":"CRBFG-87-CUSE/FIH",
+    "nombre":"FAOMI ICOPRE HUMAÑA",
+    "ci":"5602143",
+    "curso":"Curso de Seguridad Escolar",
+    "horas":"24 horas",
+    "modalidad":"Presencial",
+    "fecha":"2025-Julio",
+    "qr": "CUSE-FIB.jpg"
+  }
+]

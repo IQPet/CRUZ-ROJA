@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Validación de Certificados — Cruz Roja Boliviana</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <img src="logo.png" alt="Logo Cruz Roja" class="logo" onerror="this.style.display='none'">
+    <h1>Validación de Certificados — Cruz Roja Boliviana</h1>
+  </header>
+
+  <main class="container">
+    <section class="buscar">
+      <label for="codigo">Ingresar código de barra del certificado:</label>
+      <div class="search-row">
+        <input id="codigo" placeholder="Ej: CRBFG-123-ABC/YXZ" />
+        <button id="btnBuscar">Validar</button>
+      </div>
+    </section>
+
+    <section id="resultado" class="resultado hidden" aria-live="polite">
+      <div class="card">
+        <div class="card-header">
+          <div class="meta">
+            <small id="codigoCert"></small>
+          </div>
+        </div>
+
+        <div class="card-body">
+          <p><strong>Nombre:</strong> <span id="nombre"></span></p>
+          <p><strong>CI:</strong> <span id="ci"></span></p>
+          <p><strong>Curso:</strong> <span id="curso"></span></p>
+          <p><strong>Carga horaria:</strong> <span id="horas"></span></p>
+          <p><strong>Modalidad:</strong> <span id="modalidad"></span></p>
+          <p><strong>Fecha de emisión:</strong> <span id="fecha"></span></p>
+
+          <div class="sello-firma">
+            <img id="sello" src="sello.png" alt="Sello institucional" onerror="this.style.display='none'">
+          </div>
+
+          <!-- ÚNICA SECCIÓN DE CÓDIGO -->
+          <div class="qr-section">
+  <img id="qrImage" src="" alt="Código del certificado">
+  <p class="qr-text">Código del certificado</p>
+</div>
+        </div>
+
+
+        <div class="card-footer">
+          <p class="contacto">
+  Cruz Roja Boliviana — Filial Guayaramerín<br>
+  Dirección: Calle Flor Medina, entre 1ro de Mayo y Trinidad<br>
+  Teléfono/WhatsApp: +591 73952743<br>
+  Correo electrónico: <a href="mailto:guayaramerin@cruzrojaboliviana.org.bo">guayaramerin@cruzrojaboliviana.org.bo</a>
+</p>
+          <button id="btnImprimir">
+            Contactar por WhatsApp
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="noencontrado" class="noencontrado hidden">
+      <p>No se encontró el certificado buscado.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Este sistema valida la autenticidad de certificados emitidos por Cruz Roja Boliviana.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
