@@ -18,5 +18,35 @@
     "modalidad":"Presencial",
     "fecha":"2025-Julio",
     "qr": "CUSE-FIB.jpg"
+  },
+  {
+    "code":"CRBFG-134-PAB/ICY",
+    "nombre":"Iyany Carvallo Yamara",
+    "ci":"7620758",
+    "curso":"Primeros Auxilios Básicos",
+    "horas":"60 horas",
+    "modalidad":"Presencial",
+    "fecha":"Del 15 de Mayo al 1 de Julio de 2025",
+    "qr": "PAB-FIB.jpg"
+  },
+  {
+    "code":"CRBFG-32-MRH/ICY",
+    "nombre":"Iyany Carvallo Yamara",
+    "ci":"7620758",
+    "curso":"Curso Basico de Manejo de Residuos Hospitalario",
+    "horas":"16 horas",
+    "modalidad":"Presencial",
+    "fecha":"Del 12 al 14 de Agosto de 2025",
+    "qr": "MRH-ICY.jpg"
+  },
+  {
+    "code":"CRBFG-13-CBH/ICY",
+    "nombre":"Iyany Carvallo Yamara",
+    "ci":"7620758",
+    "curso":"Curso de Bioseguridad Hospitalaria",
+    "horas":"16 horas",
+    "modalidad":"Presencial",
+    "fecha":"Del 30 al 31 de julio de 2025",
+    "qr": "CBH-ICY.jpg"
   }
 ]
