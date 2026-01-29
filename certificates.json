@@ -48,5 +48,15 @@
     "modalidad":"Presencial",
     "fecha":"Del 30 al 31 de julio de 2025",
     "qr": "CBH-ICY.jpg"
+  },
+  {
+    "code":"CRBFG-29-PAB/LMAG",
+    "nombre":"LUCY MARY AÑEZ GARRIDO",
+    "ci":"7647269",
+    "curso":"Primeros Auxilios Básicos",
+    "horas":"60 horas",
+    "modalidad":"Presencial",
+    "fecha":"DEL 20 DE NOVIEMBRE DE 2025 AL 15 DE ENERO DE 2026",
+    "qr": "PAB-LMAG.jpg"
   }
 ]
